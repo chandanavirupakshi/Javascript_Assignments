@@ -1,0 +1,52 @@
+1 Answer:
+
+function alpha(x){
+    if(x== 'a'|| x== 'e'||x== 'i'|| x== 'o'|| x== 'u')
+    document.write("its is an vowel")
+    else
+    document.write("it is a consonent");
+}
+alpha('e');
+alpha('y');
+
+2 Answer :
+
+let gcd=(n1,n2) => {
+    while (n1 != n2){
+        if(n1>n2){
+            n1=n1-n2;
+        }else{
+            n2 = n2-n1;
+        }
+    }
+    return n2;
+}
+console.log(gcd(10,15));
+
+5th answer :
+
+const number = prompt("enter a number")
+let n1=0, n2=1 , n3;
+for( let i=1; i<=number; i++){
+    console.log(n1);
+    n3= n1+n2;
+    n1=n2;
+    n2=n3;
+}
+
+6th answer
+
+const number1 = prompt("enter a number1")
+const number2 = prompt("enter a number2")
+const number3 = prompt("enter a number3")
+let largest;
+if(number1 >= number2 && number1 >=number3){
+    largest= number1;
+}
+    else if(number2 >= number1 && number2 >= number3){
+        largest= number2;
+    }
+        else{
+            largest= number3;
+        }
+console.log(largest);
